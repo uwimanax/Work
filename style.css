@@ -1,0 +1,25 @@
+
+img{
+    float: right;
+    width: 200px;
+    height: 200px;
+    
+}ul{
+    color: green;
+}
+h{
+   color: red;
+}
+form{
+    width: 300px; 
+    height: 350px;
+}
+button
+{
+    color:blue;
+    padding: 16px;
+    border: 2px;
+    margin: 4px; ;
+}
+
+

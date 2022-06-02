@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="index1.css" />
+  <style>
+    table,
+    th,
+    td {
+      border: 3px solid rgb(69, 71, 64);
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 5px;
+    }
+    .alignment {
+      text-align: left;
+    }
+    .bg {
+      background-color: rgb(250, 235, 235);
+    }
+    table {
+      margin: auto;
+    }
+  </style>
+  <body>
+    <table width="70%">
+      <caption>
+        <h1>FAVORITE TABLE</h1>
+      </caption>
+      <tbody>
+        <tr class="bg">
+          <th colspan="3">NAME</th>
+          <th>IMAGE</th>
+        </tr>
+
+        <tr class="alignment">
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>age</th>
+          <th rowspan="2">
+            <img
+              src="https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=100"
+              style="display: block"
+              width="100%"
+              height="100%"
+            />
+          </th>
+        </tr>
+        <tr class="bg">
+          <td>KAYITARE</td>
+          <td>CYNTHIA</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <th colspan="4">kayitare@gmail.com</th>
+        </tr>
+      </tbody>
+    </table>
+    <center class="btn">
+      <button>
+        <a href="https://www.youtube.com/watch?v=BczLWImAmBk" target="_self">
+          Read more</a
+        >
+      </button>
+      <button><a href="form.html">Form</a></button>
+    </center>
+  </body>
+</html>
